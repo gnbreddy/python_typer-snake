@@ -1,0 +1,21 @@
+*.wav
+.wav
+
+# Dependencies
+node_modules/
+
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+
+# Keys and certs
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+*.p12
+
+# OS / editor
+.DS_Store
+Thumbs.db
