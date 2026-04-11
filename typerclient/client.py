@@ -6,7 +6,7 @@ import sys
 
 # ─── CONFIG ─────────────────────────────────────────
 SERVER_URL    = os.environ.get(
-    "TYPER_SERVER_URL", "http://127.0.0.1:3000/"
+    "TYPER_SERVER_URL", "https://python-proj-dusky.vercel.app/"
 )
 POLL_INTERVAL = 2        # normal polling
 TYPING_DELAY  = 0.01
