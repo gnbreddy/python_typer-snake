@@ -9,7 +9,7 @@ SERVER_URL    = os.environ.get(
     "TYPER_SERVER_URL", "https://python-typer-snake.vercel.app/"
 )
 POLL_INTERVAL = 2        # normal polling
-TYPING_DELAY  = 0.01
+TYPING_DELAY  = 0.05
 COUNTDOWN     = 4
 
 MAX_BACKOFF   = 30       # max retry delay (seconds)
